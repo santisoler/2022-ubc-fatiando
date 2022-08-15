@@ -17,15 +17,16 @@ The reveal.js configuration can be found in index.html
 
 <div class="talk-authors">
 
-### Leonardo Uieda, Santiago Soler, Agustina Pesce
+### Santiago Soler
 
-Geophysical Society of Houston <span style="margin: 0 20px">|</span> 20 May 2021
+Geophysical Inversion Facility, UBC
+<span style="margin: 0 20px">|</span>
+Aug 2022
+
+**Check the slides in
+[santisoler.com/2022-ubc-fatiando](https://www.santisoler.com/2022-ubc-fatiando)**
 
 </div>
-
-<img src="assets/university-of-liverpool-white.png" class="title-logo">
-<img src="assets/conicet.png" class="title-logo">
-<img src="assets/universidad-nacional-de-san-juan.png" class="title-logo">
 
 <i class="fab fa-twitter fa-fw"></i> [@fatiandoaterra](https://twitter.com/fatiandoaterra)
 <span style="margin: 0 20px">|</span>
@@ -33,6 +34,15 @@ Geophysical Society of Houston <span style="margin: 0 20px">|</span> 20 May 2021
 Feel free to screenshot/share/reuse/remix this presentation
 <span style="margin: 0 20px">|</span>
 [<i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i> CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)
+
+<p style="font-size: 1.6rem;">
+based on the
+<a href="https://www.fatiando.org/2021-gsh">
+Geophysical Society of Houston talk
+</a>
+by Leonardo Uieda, Santiago Soler
+and Agustina Pesce (CC-BY 4.0)
+</p>
 
 ---
 
@@ -56,6 +66,28 @@ Feel free to screenshot/share/reuse/remix this presentation
 
 Our journey starts in Southeastern Brazil, specifically in São Paulo and Rio de
 Janeiro
+
+</div>
+
+---
+
+<div class="container">
+
+<div class="col-left">
+
+<img src="images/leouieda.jpg" alt="" style="margin-top: 5%; border-radius: 50%; width: 80%;">
+
+# Leonardo Uieda
+
+</div>
+
+<div class="col-left">
+
+<img src="images/oliveira-jr.jpg" alt="" style="margin-top: 5%; border-radius: 50%; width: 80%;">
+
+# Vanderlei Oliveira Jr.
+
+</div>
 
 </div>
 
@@ -88,7 +120,7 @@ Actual diagram of the GUI workflow retrieved from our version control system.
 
 <div class="r-stretch bottom-right">
 
-Transitioned into the *fatiando* **Python library** in 2010 when I started my
+Transitioned into the *fatiando* **Python library** in 2010 during Leo's
 MSc in Rio
 (commit: [928515b](https://github.com/fatiando/fatiando/commit/928515b0fcfdccecbc4f661ed2469390ef43ec1d))
 
@@ -112,8 +144,8 @@ version control (went through SVN, Mercurial, and Git), and more.
 
 <div class="r-stretch bottom-left bottom-dark">
 
-Around 2011 we built the first website and gallery. We ended up building a 2D
-GUI and much more,
+Around 2011 they built the first website and gallery. They ended up building
+a 2D GUI and much more,
 <br>
 from seismic to potential fields and heat flow.
 
@@ -147,6 +179,27 @@ Updated documentation for **v0.2** (2014). doi:[10.6084/m9.figshare.1115194](htt
 <div class="r-stretch bottom-left bottom-dark">
 
 Last update for **v0.5** (2016). doi:[10.5281/zenodo.157746](https://doi.org/10.5281/zenodo.157746)
+<br>
+You can still browse the v0.5 docs in
+[legacy.fatiando.org](https://legacy.fatiando.org)
+
+</div>
+
+---
+
+<div class="centered">
+
+# Started using Fatiando during <br> my Licentiate dissertation
+
+<div>
+
+---
+
+<!-- .slide: data-background-image="images/santi-first-pr.png" data-background-size="contain" data-background-repeat="no-repeat" data-background-color="#000000" -->
+
+<div class="r-stretch bottom-left bottom-dark">
+
+First contributions to the project
 
 </div>
 
@@ -220,6 +273,12 @@ Unstable foundations for growth
 
 </ul>
 </div>
+
+---
+
+# Growing Geoscience Python ecosystem
+
+<img src="images/ecosystem.svg" style="height: 80vh;">
 
 ---
 
@@ -319,18 +378,18 @@ Reference <b>ellipsoids</b> for <b>normal gravity</b>
 </div>
 <div class="col fragment">
 
-<a href="http://www.fatiando.org/rockhound">
-<img class="project-logo center-block" src="assets/rockhound-logo.svg">
+<a href="http://www.fatiando.org/ensaio">
+<img class="project-logo center-block" src="assets/ensaio-logo.svg">
 </a>
 
-Repository for our **sample data** (uses Pooch)
+**Practice datasets** to probe your code
 
 <ul class="fa-ul project-icons">
 <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-   <a href="https://github.com/fatiando/rockhound">fatiando/rockhound</a>
+   <a href="https://github.com/fatiando/ensaio">fatiando/ensaio</a>
 </li>
-<li><i class="fa-li fa fa-flask fa-fw" style="color: orange" title="Project status"></i>
-    Early stages of design
+<li><i class="fa-li fa fa-flask fa-fw" style="color: green" title="Project status"></i>
+    Functional but still evolving
 </li>
 </ul>
 
@@ -384,7 +443,12 @@ Not experienced with Python?
 
 <li class="fragment">
 <span class="fa-li"><i class="fab fa-youtube"></i></span>
-Tutorials about <a href="https://www.youtube.com/watch?v=-xZdNdvzm3E">Verde</a>
+✨ New tutorials page ✨ in <a href="https://www.fatiando.org/tutorials">fatiando.org/tutorials</a>
+</li>
+
+<li class="fragment">
+<span class="fa-li"><i class="fab fa-youtube"></i></span>
+Video tutorials about <a href="https://www.youtube.com/watch?v=-xZdNdvzm3E">Verde</a>
 and <a href="https://www.youtube.com/watch?v=0bxZcCAr6bwab_channel=SoftwareUnderground">Harmonica</a>
 </li>
 
@@ -450,7 +514,7 @@ There are many ways to participate:
 <li class="fragment">
 <span class="fa-li"><i class="fab fa-slack"></i></span>
 <a href="http://contact.fatiando.org/">Slack</a>:
-where we chat about meetings, events, questions, experiences
+talk to users and developers
 </li>
 
 <li class="fragment">
@@ -495,7 +559,7 @@ Find out more:
 [fatiando.org](https://www.fatiando.org)
 
 Slides + demo:
-[github.com/fatiando/2021-gsh](https://github.com/fatiando/2021-gsh)
+[github.com/santisoler/2022-ubc-fatiando](https://github.com/santisoler/2022-ubc-fatiando)
 
 </div>
 </div>
