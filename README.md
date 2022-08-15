@@ -1,81 +1,50 @@
-# Fatiando a Terra: Open-source tools for geophysics
+# Fatiando a Terra overview for GIF, UBC
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fatiando/2021-gsh/HEAD?filepath=demo.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/santisoler/2022-ubc-fatiando/HEAD?filepath=demo.ipynb)
 
-Online talk given to the Geophysical Society of Houston (GSH) in 2021
-to introduce the project, in particular Boule and Harmonica.
+Talk given to the Geophysical Inversion Facility (GIF), EOAS, UBC in August
+2022 to introduce the Fatiando a Terra project.
 
 | | Info |
 |--:|:------|
-| When | 20 May 2021 16:00 UTC-5 |
-| Slides | https://www.fatiando.org/2021-gsh |
-| Demo notebook | https://mybinder.org/v2/gh/fatiando/2021-gsh/HEAD?filepath=demo.ipynb |
+| Slides | https://www.santisoler.com/2022-ubc-fatiando |
+| Demo notebook | https://mybinder.org/v2/gh/santisoler/2022-ubc-fatiando/HEAD?filepath=demo.ipynb |
+
 
 ## Abstract
 
-The Fatiando a Terra project (https://www.fatiando.org) is a collection of open-source Python libraries for geophysics which cover a range of functionalities, from data download and processing to modeling and inversion. 
-In this opportunity we will present the two libraries that are focused on potential fields: Harmonica and Boule. 
-Boule implements reference ellipsoids (including oblate ellipsoids, spheres, and soon triaxial ellipsoids), conversions between ellipsoidal and geocentric spherical coordinates, and normal gravity calculations.
-The latter are performed using analytical expressions for gravity fields at any point outside of the ellipsoid. 
-Harmonica provides tools for processing, forward modelling, and inversion of gravity and magnetic data. 
-We will demonstrate its use to compute Bouguer gravity disturbances by forward modelling the topography with prisms, removing a 2nd order regional trend, and interpolating it onto a regular grid at a constant height using the equivalent layer technique.
-Both libraries are still evolving as we continue to refine their goals and scopes.
-We invite everyone to get involved in the development, whether it's through coding, writing documentation, or giving feedback.
+The Fatiando a Terra project (https://www.fatiando.org) is a collection of
+open-source Python libraries for geophysics which cover a range of
+functionalities, from data download and processing to modeling and inversion.
+In this opportunity we will present the two libraries that are focused on
+potential fields: Harmonica and Boule. Boule implements reference ellipsoids
+(including oblate ellipsoids, spheres, and soon triaxial ellipsoids),
+conversions between ellipsoidal and geocentric spherical coordinates, and
+normal gravity calculations. The latter are performed using analytical
+expressions for gravity fields at any point outside of the ellipsoid. Harmonica
+provides tools for processing, forward modelling, and inversion of gravity and
+magnetic data. We will demonstrate its use to compute Bouguer gravity
+disturbances by forward modelling the topography with prisms, removing a 2nd
+order regional trend, and interpolating it onto a regular grid at a constant
+height using the equivalent layer technique. Both libraries are still evolving
+as we continue to refine their goals and scopes. We invite everyone to get
+involved in the development, whether it's through coding, writing
+documentation, or giving feedback.
 
-## Speakers
 
-* Leonardo Uieda 
-    * Department of Earth, Ocean and Ecological Sciences, School of Environmental Sciences, University of Liverpool, UK
-    * https://www.leouieda.com
-* Santiago Soler
-    * Instituto Geofísico Sismológico Volponi, Universidad Nacional de San Juan, Argentina
-    * CONICET, Argentina
-    * https://santisoler.github.io
-* Agustina Pesce
-    * Instituto Geofísico Sismológico Volponi, Universidad Nacional de San Juan, Argentina
-    * CONICET, Argentina
-    * https://aguspesce.github.io
+## Find out more
 
-## Resources
+Check the Fatiando a Terra website: https://www.fatiando.org
 
-Find out more:
 
-* Harmonica documentation: https://www.fatiando.org/harmonica
-* Boule documentation: https://www.fatiando.org/boule
-* Tutorial for Boule and Harmonica at Transform 2021: https://youtu.be/0bxZcCAr6bw and https://github.com/fatiando/transform21
-* Presentation at EGU2021: https://doi.org/10.5194/egusphere-egu21-8291 and https://github.com/fatiando/egu2021
+## Attributions
 
-Get involved in the project:
+This talk and the slides are based on the _Fatiando a Terra: Open-source tools
+for geophysics_ talk given to the Geophysical Society of Huston (GSH) in 2021
+by Leonardo Uieda, Santiago Soler and Agustina Pesce. The content of the talk
+can be found in https://github.com/fatiando/2021-gsh/ and it's released under
+a CC-BY 4.0 License.
 
-* Join our Slack chatroom: http://contact.fatiando.org
-* Come to an open community call: https://www.youtube.com/playlist?list=PLPA_RM8wsOqIEBLICo3v7f_A1WnLcwJld
-* Follow Fatiando a Terra on Twitter: https://twitter.com/fatiandoaterra
-
-## Speaker bios
-
-### Agustina Pesce
-
-<img src="https://raw.githubusercontent.com/aguspesce/aguspesce.github.io/master/imgs/about.jpg" width="200px">
-
-PhD in Geophysics focused in applied geophysics, processing and analyzing gravity and magnetic data. 
-ow she is studying the subduction zones through geodynamical numerical modeling.
-
-### Santiago Soler
-
-<img src="https://santisoler.github.io/images/about.jpg" width="200px">
-
-Physicist and PhD Student in Geophysics. His research is focused on new methodologies for forward and 
-inverse modelling potential field data. He is one of the core developers of Fatiando a Terra, 
-leading the development of the Harmonica library for processing and modelling gravity and magentic data.
-
-### Leonardo Uieda
-
-<img src="https://github.com/leouieda.png" width="200px">
-
-Geophysicist specializing in the development of methods for determining the inner structure of the Earth 
-from geophysical observations, mainly disturbances in the Earth's gravity and magnetic fields. 
-Developer of open-source software for processing, modeling, and visualizing geophysical data. 
-Advocate for openness in the scientific process and the adoption of best practices in computational research.
 
 ## License
 
