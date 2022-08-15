@@ -75,17 +75,29 @@ Janeiro
 
 <div class="col-left">
 
-<img src="images/leouieda.jpg" alt="" style="margin-top: 5%; border-radius: 50%; width: 80%;">
+<img src="images/leouieda.jpg" alt="" style="display: block; margin: 5% auto 0%; border-radius: 50%; width: 50%;">
 
-# Leonardo Uieda
+<h2 style="text-align: center">Leonardo Uieda</h2>
+
+<ul class="fa-ul bio">
+<li><i class="fa-li fa fa-university"></i>University of Liverpool, UK</li>
+<li><i class="fa-li fab fa-github"></i><a href="https://github.com/leouieda">@leouieda</a></li>
+<li><i class="fa-li fab fa-twitter"></i><a href="https://twitter.com/leouieda">@leouieda</a></li>
+<li><i class="fa-li fas fa-globe"></i><a href="https://www.leouieda.com">leouieda.com</a></li>
+</ul>
 
 </div>
 
 <div class="col-left">
 
-<img src="images/oliveira-jr.jpg" alt="" style="margin-top: 5%; border-radius: 50%; width: 80%;">
+<img src="images/oliveira-jr.jpg" alt="" style="display: block; margin: 5% auto 0%; border-radius: 50%; width: 50%;">
 
-# Vanderlei Oliveira Jr.
+<h2 style="text-align: center">Vanderlei Oliveira Jr.</h2>
+
+<ul class="fa-ul bio">
+<li><i class="fa-li fa fa-university"></i>Observatório Nacional, Rio de Janeiro, Brazil</li>
+<li><i class="fa-li fab fa-github"></i><a href="https://github.com/leouieda">@birocoles</a></li>
+</ul>
 
 </div>
 
