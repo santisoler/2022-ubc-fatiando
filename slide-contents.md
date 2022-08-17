@@ -199,11 +199,40 @@ You can still browse the v0.5 docs in
 
 ---
 
+<!-- .slide: data-background-color="#000000" data-background-image="assets/background.svg" data-background-repeat="no-repeat" data-background-position="center" -->
+
 <div class="centered">
 
-# Started using Fatiando during <br> my Licentiate dissertation
+<div>
+
+## Fun fact
+
+Fatiando a Terra means _slicing the Earth_ in Portuguese
+
+🔪🌎
+
+</div>
+
+</div>
+
+---
+
+<!-- .slide: data-background-color="#000000" data-background-image="assets/background.svg" data-background-repeat="no-repeat" data-background-position="center" -->
+
+<div class="centered">
 
 <div>
+
+<div class="d-flex flex-row" style="display: flex; align-items: center;">
+<img src="images/santisoler.jpg" alt="" style="display: block; margin: 5% auto 0%; border-radius: 50%; width: 50%;">
+<img src="assets/fatiando-logo.svg" style="height: 100%;">
+</div>
+
+I started using Fatiando during <br> my Licentiate dissertation
+
+</div>
+
+</div>
 
 ---
 
@@ -211,7 +240,7 @@ You can still browse the v0.5 docs in
 
 <div class="r-stretch bottom-left bottom-dark">
 
-First contributions to the project
+First contributions to the project circa 2016
 
 </div>
 
@@ -297,7 +326,7 @@ Unstable foundations for growth
 <div class="container small">
 <div class="col">
 
-### ✨ New Fatiando ✨
+### ✨New Fatiando✨
 
 Split into libraries
 
