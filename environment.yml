@@ -27,3 +27,5 @@ dependencies:
   # To speed up Verde
   - pykdtree
   - numba
+  # SimPEG
+  - simpeg
